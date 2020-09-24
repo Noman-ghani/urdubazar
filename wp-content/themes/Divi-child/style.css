@@ -5,3 +5,34 @@ Version: 1.0.0
 Template: Divi
 Text Domain: Divi-child
 */
+#footer-info{
+    width:100%;float: left;text-align: center;
+}
+.mobile_menu_bar:before{
+    color: #252b3a;
+}
+#main-header .logo_container{
+    max-width: 240px;
+    padding: 10px;
+    height: auto;
+    float: left;
+    background: #f3f1f2;
+}
+#main-header .logo_container a{
+    float: left;
+    width: 100%;
+}
+#main-header .logo_container #logo{
+    width: 100%;
+    max-height: initial;
+    top: 10px;
+}
+body .plainoverlay{
+    background:#252b3a !important;opacity:1 !important;z-index: 99999 !important;
+}
+body .plainoverlay~div{
+    z-index: 99999 !important;
+}
+body .jQuery-plainOverlay-progress{
+    border-color: #e9d9c1;
+}
