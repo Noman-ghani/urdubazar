@@ -36,3 +36,80 @@ body .plainoverlay~div{
 body .jQuery-plainOverlay-progress{
     border-color: #e9d9c1;
 }
+body #main-content{
+  
+background:#f3f1f2 ;
+}
+body #page-container #et-main-area #main-content .container{
+    padding-top: 0;
+}
+body #page-container #left-area .products .product {
+    box-shadow: 0px 30px 120px -20px rgba(0,0,0,0.15);
+    background: #f3f1f2;
+    margin: 1%;
+    width: 31.3%;position: relative;transition: 0.3s ease all;top: 0;
+}
+body #page-container #left-area .products .product:hover {
+    transition: 0.3s ease all;
+    /* transform: scale(1.1); */
+    top: -15px;
+}
+body #left-area .products .product .onsale {
+    position: absolute;
+    left: -7px !important;
+    background: #252b3a !important;
+    color: #FFF !important;
+    border-radius: 0 !important;
+    font-family: 'Work Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+body #left-area .products .product .price {
+    position: absolute;
+    right: -7px;
+    padding: 7px 15px;
+    background: #d94144;
+    color: #FFF !important;
+    top: 10px;
+}
+
+body #left-area .products .product .price del{
+    color: #FFF !important;
+}
+body #left-area .products .product .woocommerce-loop-product__title {
+    padding: 20px 30px 10px;
+    border-top: 1px solid;
+    font-size: 18px;
+    font-weight: 700;
+}
+body #left-area .products .product p.short-des {
+    padding: 0 30px;
+    width: 100%;
+    float: left;
+    color: #333;
+    padding-bottom: 24px !important;
+    font-size: 14px;
+    letter-spacing: -0.3px;
+}
+body #left-area .products .product .et_shop_image {
+    max-width: 200px;
+    margin:75px auto 30px;
+    left: 0;
+    right: 0;
+    position: relative;
+}
+body p{
+    letter-spacing: 0.3 !important;
+}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range{
+    background-color: #252b3a;
+}
+.woocommerce .widget_price_filter .price_slider_amount .button{
+    background: #d74043;
+    color: #FFF;
+    border: navajowhite;
+    border-radius: 0;
+    padding: 5px 100px;
+    margin-bottom: 10px;
+}
